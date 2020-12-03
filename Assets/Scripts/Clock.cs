@@ -6,7 +6,7 @@ public class Clock : MonoBehaviour
 {
     TextMeshProUGUI textMesh;
 
-    float hours = 23, minut = 59, second = 00;
+    float hours = 00f, minut = 00f, second = 00f;
 
     void Start()
     {
